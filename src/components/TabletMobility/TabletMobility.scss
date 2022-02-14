@@ -1,0 +1,120 @@
+.TabletMobilityTab{
+    padding: 8% 8% 8% 8%;
+    background: rgb(243, 87, 183);
+    height: 80%;
+    color: white;
+    font-family: 'Ubuntu';
+    .LearnMore{
+        background: transparent;
+        padding: 15px 60px;
+        border: 1px solid white;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .SamsungViolet9{
+        height: 300px;
+        width: 600px;
+    }
+    .TabletMobilityContainer{
+        // padding:5% 2%;
+        .row{
+            padding:5% 2% 5% 2% ;
+        }
+        .GalaxyHeading{
+            h1{
+                font-size: 4rem;
+                font-weight: bold;
+            }
+            p{
+                font-family: 'Raleway';
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    @media screen and (max-width:1199px) {
+        .SamsungViolet9{
+            height: 300px !important;
+            width: 500px !important;
+        }
+    }
+
+    @media screen and (max-width:991px) {
+        .SamsungViolet9{
+            height: 250px !important;
+            width: 400px !important;
+        }
+        .GalaxyHeading{
+            h1{
+                font-size: 2rem !important;
+                font-weight: bold;
+            }
+            p{
+                padding-top: 20px;
+                font-family: 'Raleway';
+                font-size: 1rem !important;
+                padding-bottom: 20px;
+            }
+        }
+        .LearnMore{
+            background: transparent;
+            padding: 15px 40px;
+            border: 1px solid white;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+    @media screen and (max-width: 776px){
+        .LearnMore{
+            background: transparent;
+            padding: 10px 30px;
+            border: 1px solid white;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .SamsungViolet9{
+            padding-top: 20px !important;
+            height: 250px !important;
+            width: 350px !important;
+        }
+        .GalaxyHeading{
+            h1{
+                font-size: 2rem !important;
+                font-weight: bold;
+            }
+            p{
+                font-family: 'Raleway';
+                font-size: 1rem !important;
+            }
+        }
+    }
+
+    @media screen and (max-width:575px) {
+        .LearnMore{
+
+            background: transparent;
+            padding: 10px 20px;
+            border: 1px solid white;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .SamsungViolet9{
+            padding-top: 20px !important;
+            height: 250px !important;
+            width: 300px !important;
+        }
+    }
+}
+

@@ -1,0 +1,32 @@
+.GalaxyDevices{
+    height: 100%;
+    padding: 4% 11%;
+    .ExploreHeading{
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Ubuntu';
+    }   
+    .GalaxyCardsRow{
+        padding:9% 0%;
+    }
+    .Phones{
+        height: 350px;
+        width: 250px;
+    }  
+    .Wearables{
+        height: 350px;
+        width: 250px;
+    }
+    .Tablets{
+        height: 350px;
+        width: 250px;
+    }
+    .VRs{
+        height: 350px;
+        width: 250px;
+    } 
+    .GalaxyCardHeading{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}

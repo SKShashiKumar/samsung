@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import BannerPage from './components/BannerPage';
+import BlueVioletTab from './components/BlueVioletTab';
+import Footer from './components/Footer';
+import GalaxyDevices from './components/GalaxyDevices';
+import Header from './components/Header';
+import ConnectToeverything from './components/ConnectToeverything'
+import BlackSamsung from './components/BlackSamsung';
+import GearIconX from './components/GearIconX';
+import TabletMobilityTab from './components/TabletMobility';
+import LastSlide from './components/LastSlide';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <BannerPage/>
+      <GalaxyDevices/>
+      <BlueVioletTab/>
+      <ConnectToeverything/>
+      <BlackSamsung/>
+      <GearIconX/>
+      <TabletMobilityTab/>
+      <LastSlide/>
+      <Footer/>
     </div>
   );
 }

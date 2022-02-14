@@ -1,0 +1,59 @@
+.connectToeverything{
+    background: url('../../../public/images/bg2.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Ubuntu';
+    // color: white;
+    text-align: center;
+    padding: 5% 11% 5% 11%;
+        .connectToeverythingRow{
+            padding: 0% 11% 5% 11%;
+        }
+
+        @media screen and (min-width:1200px) {
+            .Connect_Watch{
+                height: 450px;
+                width: 400px;
+            }
+        }
+
+        @media screen and (max-width:1199px) {
+            .Connect_Watch{
+                height: 300px;
+                width: 300px;
+            }
+        }
+
+        @media screen and (max-width:991px) {
+            .Connect_Watch{
+                height: 400px;
+                width: 300px;
+            }
+        }
+
+        @media screen and (max-width:776px) {
+            .Connect_Watch{
+                height: 400px;
+                width: 300px;
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            .Connect_Watch{
+                height: 250px;
+                width: 250px;
+            }
+        }
+        .ConnectCard{
+            .row{
+                .col-12{
+                    h4{
+                        padding: 5% 11% 0% 11%;
+                    }
+                    p{
+                        padding: 5% 11% 5% 11%;
+                    }
+                }
+            }
+        }
+}

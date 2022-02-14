@@ -1,0 +1,81 @@
+.LastSlide{
+
+    padding: 8% 8% 8% 8%;
+    background: rgb(255, 255, 255);
+    height: 80%;
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu';
+    
+    h2{
+        font-weight: bold;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+
+    .SmallHeading{
+        padding-bottom: 5%;
+    }
+
+    .MainHeading{
+        padding-bottom: 5%;
+    }
+
+    .LastP{
+        font-family: 'Raleway';
+    }
+
+    .LearnMore{
+    background: transparent;
+    padding: 15px 60px;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+
+    @media screen and (max-width: 991px){
+
+        .LearnMore{
+            background: transparent;
+            padding: 15px 40px;
+            border: 1px solid black;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+
+    @media screen and (max-width: 776px){
+        .LearnMore{
+            background: transparent;
+            padding: 10px 30px;
+            border: 1px solid black;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+
+    @media screen and (max-width:575px) {
+        .LearnMore{
+
+            background: transparent;
+            padding: 10px 20px;
+            border: 1px solid black;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+}

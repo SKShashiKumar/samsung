@@ -1,0 +1,119 @@
+.BannerPage{
+    background: url('../../../public/images/gr4.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Raleway';
+    color: white;
+    padding: 5% 11%;
+    .MainTitle{
+        font-size: 5rem;
+        font-weight: bolder;
+    }
+    .Description{
+        font-size: 1.5rem;
+    }
+    .LearnMore{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: transparent;
+        padding: 15px 60px;
+        border: 1px solid white;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .BannerCardRow{
+        gap: 80px;
+        .BannerCards{
+            background: white;
+            color: #281C31;
+            font-family: 'Ubuntu';
+            padding: 20px 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .BannerCardHeading{
+                padding: 10px 0px;
+            }
+            .BannerCardDescription{
+                padding: 10px 0px;
+                font-family: 'Raleway';
+                font-size: 18px;
+            }
+            .fa-arrow-right-long{
+                padding: 10px 0px;
+                font-size: 30px;
+            }
+            .colorViolet{
+                color: #3a0e63 !important;
+            }
+            .colorPurple{
+                color: #c04a87 !important;
+            }
+            .colorBlueViolet{
+                color: #7145e0 !important;
+            }
+        }
+    }
+
+    @media screen and (min-width:1200px) {
+        .SamsungBanner{
+            height: 500px;
+            width: 500px;
+        }
+    }
+    
+    @media screen and (max-width:1199px) {
+        .SamsungBanner{
+            height: 400px;
+            width: 400px;
+        }
+    }
+    @media screen and (max-width:991px) {
+        .SamsungBanner{
+            height: 400px;
+            width: 400px;
+        }
+    }
+    @media screen and (max-width:767px) {
+        .MainTitle{
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+    }
+    @media screen and (max-width:576px) {
+        .MainTitle{
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+        .LearnMore{
+            background: transparent;
+            padding: 10px 45px;
+            border: 2px solid white;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }   
+}
+
+@media screen and (max-width:767px) {
+    .BannerPage{
+        padding: 10% 10%;
+    }
+    .SamsungBanner{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (max-width:576px) {
+    .BannerPage{
+        padding: 20% 10%;
+    }
+    .SamsungBanner{
+        height: 250px !important;
+        width: 250px !important;
+    }
+}

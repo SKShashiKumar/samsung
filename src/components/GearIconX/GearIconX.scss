@@ -1,0 +1,42 @@
+.GearIconX{
+    font-family: 'Ubuntu';
+    padding:5% 20%;
+    .GearHeading{
+        padding-top: 3%;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .GearDesc{
+        padding-top: 3%;
+        font-family: 'Raleway';
+        font-size: 18px;
+    }
+
+
+    @media screen and (min-width:1199px) {
+        .GalaxyPods{
+            padding-top: 3%;
+            height: 350px;
+            width: 600px;
+        }
+    }
+
+    @media screen and (max-width:991px) {
+        .GalaxyPods{
+            height: 300px;
+            width: 450px;
+        }
+    }
+    @media screen and (max-width:776px) {
+        .GalaxyPods{
+            height: 250px;
+            width: 300px;
+        }
+    }
+    @media screen and (max-width:575px) {
+        .GalaxyPods{
+            height: 150px;
+            width: 250px;
+        }
+    }
+}
